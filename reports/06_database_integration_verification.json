@@ -1,0 +1,32 @@
+{
+  "timestamp": "Column<'current_timestamp()'>",
+  "postgresql": {
+    "database": "retail_db",
+    "table": "retail_transactions",
+    "total_records": 397884,
+    "total_columns": 21,
+    "columns": [
+      "AvgCustomerSpend",
+      "Country",
+      "CountryEncoded",
+      "CustomerFrequency",
+      "CustomerID",
+      "CustomerPriceStd",
+      "CustomerTotalQty",
+      "Day",
+      "Description",
+      "Hour"
+    ]
+  },
+  "mongodb": {
+    "database": "retail_bigdata",
+    "collection": "retail_anomalies",
+    "total_documents": 7767,
+    "total_fields": 24
+  },
+  "consistency_check": {
+    "status": "\u2713 VALID",
+    "mongodb_is_subset": true,
+    "data_ready_for_dashboard": true
+  }
+}

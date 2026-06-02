@@ -1,0 +1,6 @@
+pyspark
+pandas
+psycog2
+pymongo
+streamlit
+matplotlib

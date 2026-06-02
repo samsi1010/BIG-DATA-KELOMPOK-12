@@ -1,0 +1,28 @@
+{
+  "PostgreSQL": {
+    "Database": "retail_db",
+    "Table": "retail_transactions",
+    "Purpose": "Menyimpan semua data transaksi retail yang sudah diproses",
+    "Type": "Relasional (ACID Compliance)",
+    "Total_Records": 397884,
+    "Key_Features": [
+      "ACID Compliance untuk data financial",
+      "SQL Query support untuk analysis",
+      "Multi-user access support",
+      "Index untuk performa query"
+    ]
+  },
+  "MongoDB": {
+    "Database": "retail_bigdata",
+    "Collection": "retail_anomalies",
+    "Purpose": "Menyimpan data transaksi anomali untuk fraud investigation",
+    "Type": "Non-Relasional (NoSQL, Document-oriented)",
+    "Total_Documents": 7767,
+    "Key_Features": [
+      "Flexible schema untuk penambahan field",
+      "Document-oriented format (JSON-like)",
+      "Support nested data struktur",
+      "Mudah di-scale untuk big data"
+    ]
+  }
+}
