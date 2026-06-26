@@ -17,7 +17,7 @@
     "Collection": "retail_anomalies",
     "Purpose": "Menyimpan data transaksi anomali untuk fraud investigation",
     "Type": "Non-Relasional (NoSQL, Document-oriented)",
-    "Total_Documents": 7767,
+    "Total_Documents": 7945,
     "Key_Features": [
       "Flexible schema untuk penambahan field",
       "Document-oriented format (JSON-like)",

@@ -15,10 +15,10 @@ print("-"*80)
 print("✓ Apache Spark berhasil dijalankan")
 
 df = spark.read.csv(
-    "data/online_retail.csv",
+    "data/online_retail.csv.gz",
     header=True,
     inferSchema=True,
-    sep=";"
+    sep=","
 )
 
 # PENTING: Bersihkan whitespace dari nama kolom!
