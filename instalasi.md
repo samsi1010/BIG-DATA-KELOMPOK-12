@@ -1,5 +1,7 @@
 BIG DATA RETAIL ANOMALY PROJECT
 
+link download dataset : https://drive.google.com/file/d/1tQZ5JkqBJVuVFbtzIYIgHtxbLA3atlRi/view?usp=sharing
+
 Menjalankan Project di Local
 Dokumen ini menjelaskan seluruh tahapan untuk menjalankan proyek Big Data Retail Anomaly Detection pada komputer lokal.
 
@@ -231,4 +233,6 @@ Install Streamlit
 pip install streamlit
 Kemudian jalankan kembali
 streamlit run dashboard/app.py
+
+
 
